@@ -20,7 +20,7 @@ public class Task{
         try {
             task = new Task(validTitle, validProject, validDueDate);
         } catch (Exception e) {
-            System.out.println("There are few errors in the testing of Task class");
+            System.out.println("Looks like there are few errors in the testing of Task class");
             System.out.println("Following message could be helpful to identify the cause:");
             System.out.println(e.getMessage());
 
@@ -28,15 +28,10 @@ public class Task{
 
     }
 
-
     @Test
     public void getTaskTitle() {
         assertEquals(validTitle,task.getTaskTitle());
     }
-
-
-
-
 
     @Test
     public void testValidProject() {
@@ -44,17 +39,12 @@ public class Task{
 
     }
     @Test
-
     public void testEmptyProject() {
-
         task.setProjectName("");
-
         assertEquals("",task.getprojectName());
-
     }
 
     @Test
-
     public void testvalidDueDate() {
         assertEquals(validDueDate,task.getDueDate());
     }

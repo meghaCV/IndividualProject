@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Com.FirstAssignment.Dmessages" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-20T11:37:51" hostname="SDA-10-mbpro" time="0.039">
+  <properties/>
+  <testcase name="displayMessage()" classname="Com.FirstAssignment.Dmessages" time="0.026"/>
+  <testcase name="showTaskList()" classname="Com.FirstAssignment.Dmessages" time="0.001"/>
+  <testcase name="endMessage()" classname="Com.FirstAssignment.Dmessages" time="0.001"/>
+  <testcase name="editTask()" classname="Com.FirstAssignment.Dmessages" time="0.001"/>
+  <testcase name="displayMenu()" classname="Com.FirstAssignment.Dmessages" time="0.001"/>
+  <testcase name="editSelectedTask()" classname="Com.FirstAssignment.Dmessages" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
